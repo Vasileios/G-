@@ -1,0 +1,18 @@
+#+Title: G++ openGL and GLUT frameworks
+
+This is an example of core graphics on Emacs - c++/4.2.1
+Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Target: x86_64-apple-darwin17.2.0
+
+The files you need to compile and build a graphics programm in C is:
+
+ - line.c
+ - line.o
+ - makefile
+
+Open emacs and run =C-x c= to make run the .c file.
+
+Make sure you use an editor that keeps =tabs= as =tabs= and not
+spaces.
+
+ 

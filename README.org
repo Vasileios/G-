@@ -20,11 +20,10 @@ Open GlutExample.c file on emacs and hit =C-x c= to build the programm.
 Make sure you use an editor that keeps =tab= as =tab= and not
 spaces. 
 
-#+ATTR_HTML: :background-color #eff0f1;
+#+ATTR_HTML: :background-color #000000;
 
 #+BEGIN_SRC makefile
 LIBPATH += -L"/System/Library/Frameworks/OpenGL.framework/Libraries"
-##-L"/System/Library/Frameworks/OpenGL.framework/Libraries"
 
 FRAMEWORK = -framework GLUT
 FRAMEWORK += -framework OpenGL

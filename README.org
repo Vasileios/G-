@@ -1,5 +1,7 @@
 #+Title: G++ openGL and GLUT frameworks
 
+
+
 This is an example of core graphics on Emacs 25.3 (9.0) 
 c++/4.2.1
 Apple LLVM version 9.0.0 (clang-900.0.39.2)
@@ -18,7 +20,8 @@ Open GlutExample.c file on emacs and hit =C-x c= to build the programm.
 Make sure you use an editor that keeps =tab= as =tab= and not
 spaces. 
 
- 
+#+ATTR_HTML: :background-color #eff0f1;
+
 #+BEGIN_SRC makefile
 LIBPATH += -L"/System/Library/Frameworks/OpenGL.framework/Libraries"
 ##-L"/System/Library/Frameworks/OpenGL.framework/Libraries"

@@ -19,8 +19,7 @@ Open GlutExample.c file on emacs and hit =C-x c= to build the program.
 
 *Note for makefile*
 
-Make sure you use an editor that keeps =tab= as =tab= and not
-spaces.
+Make sure that you use an editor that uses =tab= and doesn't convert =tab= into empty spaces ( ).
 
 =makefile=
 

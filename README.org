@@ -17,10 +17,12 @@ The files are:
 
 Open GlutExample.c file on emacs and hit =C-x c= to build the program.
 
-*Note*
+*Note for makefile*
 
 Make sure you use an editor that keeps =tab= as =tab= and not
 spaces. 
+
+=makefile=
 
 #+BEGIN_SRC makefile
 LIBPATH += -L"/System/Library/Frameworks/OpenGL.framework/Libraries"

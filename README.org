@@ -1,6 +1,8 @@
 #+Title: G++ openGL and GLUT frameworks
 
-
+#+HTML_HEAD: <style type="text/css">.example {background-color: #000000; color: #000000;}</style>
+#+HTML_HEAD: <style>pre.src {background-color: #000000; color: #e5e5e5;}</style>
+#+HTML_HEAD: <style type="text/css">.example {background-color: #000000; color: #000000; color: #e5e5e5;}</style>
 
 This is an example of core graphics on Emacs 25.3 (9.0) 
 c++/4.2.1
@@ -19,8 +21,6 @@ Open GlutExample.c file on emacs and hit =C-x c= to build the programm.
 
 Make sure you use an editor that keeps =tab= as =tab= and not
 spaces. 
-
-#+ATTR_HTML: :background-color #000000;
 
 #+BEGIN_SRC makefile
 LIBPATH += -L"/System/Library/Frameworks/OpenGL.framework/Libraries"

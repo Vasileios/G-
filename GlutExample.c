@@ -26,10 +26,10 @@ void tetrahedron(void)
   triangle(v[3], v[2], v[1]);
   triangle(v[0], v[2], v[3]);
 }
-
+//
 void display(void)
 {
-  glClear(GL_COLOR_BUFFER_BIT);
+    glClear(GL_COLOR_BUFFER_BIT);
   glColor3f(1.0,1.0,1.0);
   glLoadIdentity();
 

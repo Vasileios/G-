@@ -15,7 +15,7 @@ The files are:
  - GlutExample.o
  - makefile
 
-Open GlutExample.c file on emacs and hit =C-x c= to build the programm.
+Open GlutExample.c file on emacs and hit =C-x c= to build the program.
 
 *Note*
 

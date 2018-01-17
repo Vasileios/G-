@@ -4,7 +4,8 @@
 #+HTML_HEAD: <style>pre.src {background-color: #000000; color: #e5e5e5;}</style>
 #+HTML_HEAD: <style type="text/css">.example {background-color: #000000; color: #000000; color: #e5e5e5;}</style>
 
-This is an example of core graphics on Emacs 25.3 (9.0) 
+This is an example of core graphics by Michael J. Norton[fn::http://www.macdevcenter.com/pub/a/mac/2005/04/01/opengl.html
+] on Emacs 25.3 (9.0)
 c++/4.2.1
 Apple LLVM version 9.0.0 (clang-900.0.39.2)
 Target: x86_64-apple-darwin17.2.0
@@ -20,7 +21,7 @@ Open GlutExample.c file on emacs and hit =C-x c= to build the program.
 *Note for makefile*
 
 Make sure you use an editor that keeps =tab= as =tab= and not
-spaces. 
+spaces.
 
 =makefile=
 

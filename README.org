@@ -4,7 +4,9 @@
 #+HTML_HEAD: <style>pre.src {background-color: #000000; color: #e5e5e5;}</style>
 #+HTML_HEAD: <style type="text/css">.example {background-color: #000000; color: #000000; color: #e5e5e5;}</style>
 
-This is a core graphics example by Michael J. Norton <[[http://www.macdevcenter.com/pub/a/mac/2005/04/01/opengl.html%0A][link]]>  on Emacs 25.3 (9.0)
+This is a core graphics example by Michael J. Norton <[[http://www.macdevcenter.com/pub/a/mac/2005/04/01/opengl.html%0A][link]]>
+
+I have rebuilt this on Emacs 25.3 (9.0)
 c++/4.2.1
 Apple LLVM version 9.0.0 (clang-900.0.39.2)
 Target: x86_64-apple-darwin17.2.0
@@ -20,6 +22,14 @@ Open GlutExample.c file on emacs and hit =C-x c= to build the program.
 *Note for makefile*
 
 Make sure that you use an editor that uses =tab= and doesn't convert =tab= into empty spaces ( ).
+
+The makefile tells how to compile
+and link a program.
+The below make file uses a path for the libraries two frameworks rules
+and commands.
+
+In this makefile we ask to create an object file of the .c file and
+then to execute the programm. 
 
 =makefile=
 

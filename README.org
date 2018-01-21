@@ -42,7 +42,7 @@ The below make file uses rules with the following shape:
 #+BEGIN_QUOTE
 target … : prerequisites …
        
-        recipe
+<tab>  recipe
         
         …
         

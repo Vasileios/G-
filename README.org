@@ -57,7 +57,7 @@ For more details see [[https://www.gnu.org/software/make/manual/make.html#Introd
 The use of =variables=  such as =LIBPATH= (the path for the libraries
 of the two frameworks (openGL and GLUT)), =FRAMEWORK= (the framework
 to use),
-=COMPILERFLAGS= (compiler's flags), =CC= (compiler) etc.  make makefiles simpler.
+=COMPILERFLAGS= (the compilation options for C programs), =CC= (the C compiler) etc.  make makefiles simpler.
 
 The compilation phase (converting the source files into object files)
 using flags.

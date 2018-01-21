@@ -19,6 +19,18 @@ The files are:
 
 Open GlutExample.c file on emacs and hit =C-x c= to build the program.
 
+To make sure that =C-x c= can do the job put this in your .emacs.d
+file:
+
+#+BEGIN_SRC emacs-lisp
+(global-set-key "\C-xc" 'compile)
+ (setq make-backup-files 'nil)
+ (setq text-mode-hook 'turn-on-auto-fill)
+ (setq auto-mode-alist (cons '("\\.cxx$" . c++-mode) auto-mode-alist))
+ (setq auto-mode-alist (cons '("\\.hpp$" . c++-mode) auto-mode-alist))
+ (setq auto-mode-alist (cons '("\\.tex$" . latex-mode) auto-mode-alist))
+#+END_SRC
+
 *Note for makefile*
 
 Make sure that you use an editor that uses =tab= and doesn't convert =tab= into empty spaces ( ).

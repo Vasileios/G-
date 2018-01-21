@@ -63,8 +63,8 @@ The compilation phase (converting the source files into object files)
 using compiler's flags =-= i.e =- Wall=.
 
 This makefile, creates an
-object file corresponding to the .c file and then links the object
-files .o together to produce the new executable programm.
+object file .o (executable) corresponding to the .c file and then links the object
+files .o together (recompile objects together) to produce the new executable program.
 This program contains only one .o file. In a more complex projects
 which contains more files we need to
 link those files together.

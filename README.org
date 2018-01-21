@@ -38,9 +38,9 @@ and link a program.
 A makefile uses rules with the following shape:
 
 #+BEGIN_QUOTE
-target … : prerequisites …
+target … : dependency1 dependency2 …
        
-<tab>  recipe
+<tab>  command
         
 <tab>  …
         
@@ -48,16 +48,21 @@ target … : prerequisites …
 
 #+END_QUOTE
 
+*Remember to add a TAB character before the command part)*
+
 *Make sure that you use an editor (EMACS) that uses =tab= and doesn't convert =tab= into empty spaces (______).*
 
 For more details see [[https://www.gnu.org/software/make/manual/make.html#Introduction][here]]
 
-The use of =variables=  such as =LIBPATH=  (the path for the libraries
-of the two frameworks (openGL and GLUT)) make makefiles simpler.
+The use of =variables=  such as =LIBPATH= (the path for the libraries
+of the two frameworks (openGL and GLUT)), =FRAMEWORK= (the framework
+to use),
+=COMPILERFLAGS= (compiler's flags), =CC= (compiler) etc.  make makefiles simpler.
 
+The compilation phase (converting the source files into object files)
+using flags.
 In this makefile, used with the make build automation tool, we create an
-object file from the .c file. Then it tells to the build automation
-tool to build and execute the program. 
+object file corresponding to the .c file. Then the object files must be linked together to produce the new executable programm. 
 
 =makefile=
 

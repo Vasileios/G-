@@ -33,8 +33,6 @@ file:
 
 *Note for makefile*
 
-Make sure that you use an editor that uses =tab= and doesn't convert =tab= into empty spaces ( ).
-
 The makefile tells how to compile
 and link a program.
 A makefile uses rules with the following shape:
@@ -49,6 +47,8 @@ target … : prerequisites …
         …
 
 #+END_QUOTE
+
+*Make sure that you use an editor that uses =tab= and doesn't convert =tab= into empty spaces ( ).*
 
 For more details see [[https://www.gnu.org/software/make/manual/make.html#Introduction][here]]
 

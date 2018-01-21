@@ -37,7 +37,7 @@ Make sure that you use an editor that uses =tab= and doesn't convert =tab= into 
 
 The makefile tells how to compile
 and link a program.
-The below make file uses rules with the following shape:
+A makefile uses rules with the following shape:
 
 #+BEGIN_QUOTE
 target … : prerequisites …

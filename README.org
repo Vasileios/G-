@@ -55,8 +55,9 @@ For more details see [[https://www.gnu.org/software/make/manual/make.html#Introd
 The use of =variables=  such as =LIBPATH=  (the path for the libraries
 of the two frameworks (openGL and GLUT)) make makefiles simpler.
 
-In this makefile we ask from it to create an object file of the .c file and
-then to execute the programm. 
+In this makefile used with the make build automation tool we create an
+object file from the .c file. Then it tells to the build automation
+tool to build and execute the program. 
 
 =makefile=
 

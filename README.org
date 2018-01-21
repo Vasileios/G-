@@ -50,7 +50,7 @@ target … : dependency1 dependency2 …
 
 *Remember to add a TAB character before the command part)*
 
-*Make sure that you use an editor (EMACS) that uses =tab= and doesn't convert =tab= into empty spaces (______).*
+*Make sure that you use an editor (EMACS) that uses <tab> and not empty spaces (______).*
 
 For more details see [[https://www.gnu.org/software/make/manual/make.html#Introduction][here]]
 
